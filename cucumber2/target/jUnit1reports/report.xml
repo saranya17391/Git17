@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.435" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="check  facebook application" name="facebook login with valid cerdentials" time="9.918">
+<system-out><![CDATA[
+Given user launch firefox browser...........................................passed
+And user enter url..........................................................passed
+Then user enters username and password......................................passed
+And click login.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check  facebook application" name="parameter cerdentials" time="11.237">
+<system-out><![CDATA[
+Given user launch firefox browser...........................................passed
+And user enter url..........................................................passed
+Then user enters "saranya" and "1234".......................................passed
+And click login.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
